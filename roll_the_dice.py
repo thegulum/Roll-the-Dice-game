@@ -1,6 +1,7 @@
 import random
 
 is_roll_again = ""
+is_roll_again = input("Do you want to roll the dice? : ")
 
 while True:
 
@@ -12,6 +13,7 @@ while True:
         is_roll_again = input("Do you want to roll the dice again? : ")
     elif is_roll_again.lower() == "quit" or is_roll_again.lower() == "no":
         quit()
+
     else:
         print("---Use \"yes\" and \"y\" to play, or \"no\" and \"quit\" to terminate!")
         is_roll_again = input("Do you want to roll the dice again? : ")
