@@ -1,6 +1,6 @@
 import random
 
-is_roll_again = "yes"
+is_roll_again = ""
 
 while True:
 
